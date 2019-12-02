@@ -19,5 +19,5 @@ foreach($list as $data){
     else{
         $date="______".$time[0].":00";
     }
-    echo $date." Temp: ".$data->main->temp." Humidity: ".$data->main->humidity." ".$data->weather[0]->description."</br>";
+    echo $date." Temp: ".$data->main->temp."°C Humidity: ".$data->main->humidity." ".$data->weather[0]->description."</br>";
 }
